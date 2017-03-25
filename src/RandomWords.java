@@ -20,22 +20,28 @@ public class RandomWords {
 		}
 
 		if (ans.contains("weather")) {
-			System.out.println("IT'S GONNA HAIL " + randomword + " LIKE YOU WOULDN'T BELIEVE!");
-		} else if(ans.contains("?")){
+			System.out.println("IT'S GONNA HAILS " + randomword + " LIKE YOU WOULDN'T BELIEVE!");
+		} else if (ans.contains("?")) {
 			System.out.print("What do I look like, Siri?");
-		} else if (ans.contains("a")) {
-			System.out.print("garlic bread ");
-		} else if (ans.contains("e")) {
-			System.out.print("Chipotle(tm) ");
 		}
-		if (ans.contains("o")) {
-			System.out.print("spicy ");
+
+	}
+//aaaaaaaaaaaaaaaaaah
+	/*String lettersMethod(String letter) {
+		if (letter.equals("a")) {
+			return "garlic bread ";
+		} else if (letter.equals("e")) {
+			return "fire";
+		} else if (letter.equals("o")) {
+			return "trees";
 		}
-		if (ans.contains("i")) {
-			System.out.print("tired ");
+		if (letter.equals("i")) {
+			return "stars";
 		}
-		if (ans.contains("u")) {
-			System.out.print("spaghetti ");
+		if (letter.equals("u")) {
+			return "spaghetti";
 		}
 	}
+	*/
+
 }
