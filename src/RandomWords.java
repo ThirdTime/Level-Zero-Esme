@@ -20,7 +20,7 @@ public class RandomWords {
 		}
 
 		if (ans.contains("weather")) {
-			System.out.println("IT'S GONNA HAILS " + randomword + " LIKE YOU WOULDN'T BELIEVE!");
+			System.out.println("IT'S GONNA HAIL " + randomword + " LIKE YOU WOULDN'T BELIEVE!");
 		} else if (ans.contains("?")) {
 			System.out.print("What do I look like, Siri?");
 		}
